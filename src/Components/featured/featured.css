@@ -1,0 +1,28 @@
+.featuredImage{
+    width: 50%;
+    object-fit: cover;
+}
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+}
+.featuredItem{
+    margin-left: 50px;
+    border-radius: 10px;
+    overflow:hidden;
+}
+.featuredTitle{
+    font-weight: 700!important;
+    color: #0c2f54;
+    font-family: sans-serif;
+}
+.text-muted{
+    line-height: 1.9;
+    margin-top: 20px;
+    color:#6c757d;
+    margin-top: 10px;
+}
